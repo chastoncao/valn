@@ -2,6 +2,8 @@ const yesBtn = document.querySelector(".yesButton");
 const noBtn = document.querySelector(".noButton");
 const mainPhoto = document.querySelector(".mainPhoto");
 
+const originalSrc = mainPhoto.src;
+
 yesBtn.addEventListener("mouseenter", () => {
   mainPhoto.src = "images/gomaHappyCat.gif";
 });
@@ -12,11 +14,11 @@ noBtn.addEventListener("mouseenter", () => {
 
 
 yesBtn.addEventListener("mouseleave", () => {
-  mainPhoto.src = "images/MainCat.avif";
+  mainPhoto.src = originalSrc;
 });
 
 noBtn.addEventListener("mouseleave", () => {
-  mainPhoto.src = "images/MainCat.avif";
+  mainPhoto.src = originalSrc;
 });
 
 //click
