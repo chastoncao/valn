@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+}
+.noImg {
+  width: 60%;
+  height: 80%;
+  padding-left: 20%;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.yesButton {
+  height: 30px;
+  
+
+}
+.yesButton:hover {
+  box-shadow: 4px 5px 4px rgb(251, 250, 250);
+  transition-duration: .5s;
+}
+
+.noButton {
+  height: 30px;
+}
+
+.noButton:hover {
+  box-shadow: 4px 5px 5px rgb(251, 250, 250);
+  transition-duration: .5s;
+}

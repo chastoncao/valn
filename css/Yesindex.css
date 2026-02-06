@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yesButton {
+  height: 30px;
+  width: 50px;
+  
+
+}
+.yesButton:hover {
+  box-shadow: 4px 5px 4px rgb(251, 250, 250);
+  transition-duration: .5s;
+}
+
+.image {
+  width: 100%;
+}
+
+.Question {
+  color: white;
+}
+.state {
+  color: white;
+}

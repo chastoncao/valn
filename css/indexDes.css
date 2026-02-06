@@ -1,0 +1,47 @@
+body {
+  background-image: url(../images/secbackground.gif);
+}
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.Question {
+  color: white;
+}
+
+.mainPhoto{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.yesButton {
+  height: 30px;
+  width: 50px;
+  
+
+}
+.yesButton:hover {
+  box-shadow: 4px 5px 4px rgb(251, 250, 250);
+  transition-duration: .5s;
+}
+
+.noButton {
+  height: 30px;
+  width: 50px;
+}
+
+.noButton:hover {
+  box-shadow: 4px 5px 5px rgb(251, 250, 250);
+  transition-duration: .5s;
+}
