@@ -12,11 +12,11 @@ noBtn.addEventListener("mouseenter", () => {
 
 
 yesBtn.addEventListener("mouseleave", () => {
-  mainPhoto.src = "images/mainCat.avif";
+  mainPhoto.src = "images/MainCat.avif";
 });
 
 noBtn.addEventListener("mouseleave", () => {
-  mainPhoto.src = "images/mainCat.avif";
+  mainPhoto.src = "images/MainCat.avif";
 });
 
 //click
